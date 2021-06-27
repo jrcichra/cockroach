@@ -21,5 +21,4 @@ jobs:
     - name: Build
       run: make build
       env:
-        name: GOPATH
-        value: /home/runner/work
+        GOPATH: /home/runner/work
